@@ -1,5 +1,5 @@
-<template>
-  <main></main>
+<template lang="">
+  <div>Footer</div>
 </template>
 <script>
 export default {};
