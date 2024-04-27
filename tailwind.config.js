@@ -9,7 +9,16 @@ export default {
     "./error.vue",
   ],
   theme: {
+    colors: {
+      yellow: "#e1ad01",
+      red: "#bb2b1b",
+      black: "#161617",
+      white: "#faf9f6",
+    },
     extend: {},
+    corePlugins: {
+      aspectRatio: false,
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };

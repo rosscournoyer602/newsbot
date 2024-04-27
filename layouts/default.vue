@@ -1,8 +1,8 @@
 <template>
-  <div class="flex-col justify-between">
+  <main class="flex-col justify-between">
     <Header />
     <slot />
-  </div>
+  </main>
 </template>
 
 <script>
