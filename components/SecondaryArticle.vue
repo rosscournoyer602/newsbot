@@ -1,6 +1,6 @@
 <template>
   <article class="w-50">
-    <div class="h-[200] mb-2 bg-red rounded-md">
+    <div class="h-[200] mb-2 rounded-md">
       <img
         src="/assets/media/food.jpg"
         class="max-w-100 overflow-hidden rounded-md"
