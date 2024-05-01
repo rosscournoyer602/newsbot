@@ -1,18 +1,22 @@
 <template>
   <section>
-    <PrimaryArticle />
-    <div class="flex mx-4 gap-4">
-      <SecondaryArticle />
-      <SecondaryArticle />
-    </div>
-    <div class="m-4">
-      <TertiaryArticle />
-      <TertiaryArticle />
-      <TertiaryArticle />
-      <TertiaryArticle />
-      <TertiaryArticle />
-      <TertiaryArticle />
-      <TertiaryArticle />
+    <div class="flex flex-col lg:flex-row">
+      <div class="lg:w-[80%]">
+        <PrimaryArticle />
+        <div class="flex mx-4 gap-4">
+          <SecondaryArticle />
+          <SecondaryArticle />
+        </div>
+      </div>
+      <div class="flex flex-col m-4">
+        <TertiaryArticle />
+        <TertiaryArticle />
+        <TertiaryArticle />
+        <TertiaryArticle />
+        <TertiaryArticle />
+        <TertiaryArticle />
+        <TertiaryArticle />
+      </div>
     </div>
   </section>
 </template>
