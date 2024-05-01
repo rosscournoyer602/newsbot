@@ -2,6 +2,7 @@
   <main class="flex-col justify-between">
     <Header />
     <slot />
+    <Footer />
   </main>
 </template>
 

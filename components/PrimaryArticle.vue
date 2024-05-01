@@ -1,11 +1,7 @@
 <template>
   <article class="m-4 mt-2 p-2 rounded-md bg-black">
-    <div class="aspect-w-16 aspect-h-9 overflow-hidden">
-      <img
-        src="/assets/media/food.jpg"
-        class="w-100 object-cover"
-        alt="tasty food"
-      />
+    <div class="aspect-w-16 aspect-h-9">
+      <img src="/assets/media/food.jpg" class="object-cover" alt="tasty food" />
     </div>
     <h2 class="my-2 serif-font text-2xl text-center text-white">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.

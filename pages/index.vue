@@ -8,7 +8,7 @@
           <SecondaryArticle />
         </div>
       </div>
-      <div class="flex flex-col m-4">
+      <div class="flex flex-col m-4 lg:justify-between lg:my-2">
         <TertiaryArticle />
         <TertiaryArticle />
         <TertiaryArticle />

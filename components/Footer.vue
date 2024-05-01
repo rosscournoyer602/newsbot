@@ -1,5 +1,5 @@
 <template lang="">
-  <div>Footer</div>
+  <div class="h-12"></div>
 </template>
 <script>
 export default {};
