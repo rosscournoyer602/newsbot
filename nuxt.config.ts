@@ -28,7 +28,7 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ["/assets/css/main.css"],
+  css: ["/assets/css/tailwind.css", "/assets/css/main.css"],
 
   postcss: {
     plugins: {
@@ -36,6 +36,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+
+  experimental: { inlineSSRStyles: false },
 
   modules: ["@nuxtjs/tailwindcss"],
 });
