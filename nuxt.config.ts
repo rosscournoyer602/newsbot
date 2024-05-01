@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   app: {
     head: {
       meta: [
@@ -26,11 +27,15 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   css: ["/assets/css/main.css"],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
+  modules: ["@nuxtjs/tailwindcss"],
 });
