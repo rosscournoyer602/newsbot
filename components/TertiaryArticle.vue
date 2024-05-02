@@ -5,7 +5,7 @@
     <div class="h-full flex justify-between items-center gap-6">
       <div class="h-full flex items-center">
         <img
-          src="/assets/media/food.jpg"
+          src="/assets/img/food.jpg"
           class="w-60 lg:w-80 object-contain"
           alt="tasty food"
         />
