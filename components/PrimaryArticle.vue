@@ -2,7 +2,7 @@
   <article class="m-4 mt-2 p-2 rounded-md bg-black">
     <div class="aspect-w-16 aspect-h-9">
       <img
-        src="/assets/images/food.jpg"
+        src="~/assets/images/food.jpg"
         class="object-cover"
         alt="tasty food"
       />
