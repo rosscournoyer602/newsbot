@@ -2,7 +2,7 @@
   <article class="w-50">
     <div class="h-[200] mb-2 rounded-md">
       <img
-        src="/public/images/food.jpg"
+        src="/images/food.jpg"
         class="max-w-100 overflow-hidden rounded-md"
         alt="tasty food"
       />
