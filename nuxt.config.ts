@@ -1,15 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss@"],
-  css: ["/assets/css/tailwind.css", "/assets/css/main.css"],
 
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
   app: {
     head: {
       meta: [
@@ -35,7 +27,15 @@ export default defineNuxtConfig({
       ],
     },
   },
-  experimental: {
-    inlineSSRStyles: false,
+
+  css: ["/assets/css/main.css"],
+
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
   },
+
+  modules: ["@nuxtjs/tailwindcss"],
 });
