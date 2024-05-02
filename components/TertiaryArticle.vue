@@ -1,6 +1,6 @@
 <template>
   <article
-    class="mb-2 py-1 border-t border-black lg:max-w-[520px] lg:h-[14.2%] lg:m-0"
+    class="py-2 border-t border-black lg:max-w-[520px] lg:h-[14.2%] lg:m-0"
   >
     <div class="h-full flex justify-between items-center gap-6">
       <div class="h-full flex items-center">
